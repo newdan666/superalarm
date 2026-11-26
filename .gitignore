@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 构建产物（Release 附件走 GitHub Releases，不进仓库）
+build/
+build_onedir/
+dist/
+*.spec.bak
+
+# 测试/临时
+.testdata*/
+.testdata_exe/
+.test_la_appdata/
+shots/
+tmp*/
+
+# 开发辅助资源（下划线开头的中间产物/脚本）
+assets/_*
